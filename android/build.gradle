@@ -42,6 +42,9 @@ allprojects {
             // expo-camera bundles a custom com.google.android:cameraview
             url ("$rootDir/../node_modules/expo-camera/android/maven")
         }
+        maven {
+            url ("https://download2.dynamsoft.com/maven/dbr/aar")
+        }
         mavenCentral {
             // We don't want to fetch react-native from Maven Central as there are
             // older versions over there.
@@ -53,3 +56,4 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+

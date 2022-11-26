@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './Components/HomeScreen';
 import VideoPage from './Components/VideoPage';
-import Sample from './Components/Sample';
+// import Sample from './Components/Sample';
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="VideoPage" component={VideoPage} />
-        <Stack.Screen name="Sample" component={Sample} />
+        {/* <Stack.Screen name="Sample" component={Sample} /> */}
       </Stack.Navigator>
   </NavigationContainer>
   );

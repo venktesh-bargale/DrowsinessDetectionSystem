@@ -7,7 +7,7 @@ const { height, width } = Dimensions.get('window')
       {/* <View style={styles.backView}/> */}
         <View style={styles.fontView}>
           <TouchableOpacity style={styles.button}  onPress={() => {
-                  navigation.navigate('Sample')
+                  navigation.navigate('VideoPage')
                 }}>
             <Text style={styles.text}>
               Capture Video
